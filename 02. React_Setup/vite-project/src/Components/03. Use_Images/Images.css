@@ -1,0 +1,17 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+div img{
+    width: 55px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.basket{
+    display: flex;
+    flex-direction: column;
+}
