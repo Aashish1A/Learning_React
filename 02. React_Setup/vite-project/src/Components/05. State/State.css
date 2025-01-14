@@ -1,0 +1,101 @@
+body {
+    transition: all 0.5s ease-in-out;
+}
+
+.State{
+    padding: 20px;
+}
+
+.State > .counter{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.State > .counter > button{
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-block: 10px;
+    cursor: pointer;
+}
+
+.State > .formHandle{
+    border: 2px solid red;
+    text-align: center;
+    margin: 20px;
+}
+
+.State > .formHandle > input{
+    margin: 10px 10px;
+}
+
+.State > .darkLight{
+    border: 2px solid blueviolet;
+    text-align: center;
+    margin: 25px;
+}
+
+.State > .darkLight > button{
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-block: 10px;
+    cursor: pointer;
+}
+
+
+.State > .votingApp{
+    border: 2px solid green;
+    text-align: center;
+    margin: 30px;
+}
+
+.State > .votingApp > .BJP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid red;
+    margin: 20px;
+    img{
+        height: 100px;
+        width: 100px;
+        margin: 20px 0;
+    }
+    span > button {
+        cursor: pointer;
+        padding: 10px 20px;
+    }
+}
+.State > .votingApp > .RJD {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid red;
+    margin: 20px;
+    img{
+        height: 100px;
+        width: 100px;
+        margin: 20px 0;
+    } 
+    span > button {
+        cursor: pointer;
+        padding: 10px 20px;
+    }
+} 
+.State > .votingApp > .JDU{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid red;
+    margin: 20px;
+    img{
+        height: 100px;
+        width: 100px;
+        margin: 20px 0;
+    }
+    span > button{
+        cursor: pointer;
+        padding: 10px 20px;
+    }
+}
