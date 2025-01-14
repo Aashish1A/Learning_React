@@ -1,0 +1,18 @@
+.EventHandling{
+    padding: 20px;
+}
+
+.EventHandling input{
+    margin: 10px;
+}
+
+.EventHandling button{
+    cursor: pointer;
+}
+
+/* bulb on and off */
+.bulb{
+    text-align: center;
+    margin-top: 50px;
+}
+
