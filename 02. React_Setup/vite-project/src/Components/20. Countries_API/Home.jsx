@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../App.css";
+import "./Countries_API.css";
 import SearchBar from "./SearchBar.jsx";
 import Filter from "./Filter.jsx";
 import CountriesList from "./CountriesList.jsx";
