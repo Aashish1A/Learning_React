@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 const About = () => {
   return (
-    <div>
+    <>
         <h1>Hi this is about page</h1>
-    </div>
+    </>
   )
 }
 
