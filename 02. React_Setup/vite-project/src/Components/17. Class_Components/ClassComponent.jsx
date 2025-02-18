@@ -1,14 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./ClassComponent.css";
 import OldCounter from "./OldCounter";
 
 const ClassComponent = () => {
   const [count, setCount] = useState(0);
 
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     console.log("HI new");
+  //   }, 1000);
+  // })
+
   return (
     <>
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-        <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+        {/* <div className="bg-white p-6 rounded-lg shadow-lg text-center">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Counter</h2>
           <p className="text-3xl font-semibold text-blue-600">{count}</p>
           <div className="mt-4 flex space-x-3">
@@ -31,7 +37,7 @@ const ClassComponent = () => {
               Increment
             </button>
           </div>
-        </div>
+        </div> */}
         <OldCounter />
       </div>
     </>

@@ -1,4 +1,5 @@
 import { Component } from "react";
+import withCounter from "./withCounter";
 
 class OldCounter extends Component {
   constructor() {
@@ -7,7 +8,11 @@ class OldCounter extends Component {
     this.state = {
         count: 0,
     }
+
   }
+
+  reset() { this.setState({count: 0})}
+
   render() {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
@@ -22,7 +27,7 @@ class OldCounter extends Component {
               Decrement
             </button>
             <button
-              onClick={() => this.setState({count: 0})}
+              onClick={this.reset.bind(this)}
               className="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600 transition"
             >
               Reset
