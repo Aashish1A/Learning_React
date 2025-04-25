@@ -9,10 +9,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import About from './Components/13. UseTailwindCSS/About';
 import SignIn from './Components/13. UseTailwindCSS/SignIn';
 import ClassComponent from "./Components/17. Class_Components/ClassComponent.jsx"
+import Countries_API from './Components/20. Countries_API/Countries_API.jsx';
+import Image from "./Components/03. Use_Images/Images.jsx";
 
 const About = lazy(() => wait(1000).then(() => import('./Components/13. UseTailwindCSS/About')));
 const Contact = lazy(() => wait(1000).then(() => import('./Components/13. UseTailwindCSS/Contact')));
-
 
 
 // const router = createBrowserRouter([
