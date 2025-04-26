@@ -122,7 +122,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
     body {
         margin-inline: 16px;
     }
@@ -130,4 +130,4 @@
     .expense-tracker {
         flex-direction: column;
     }
-}
+} */

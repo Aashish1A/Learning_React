@@ -12,6 +12,7 @@ import ClassComponent from "./Components/17. Class_Components/ClassComponent.jsx
 import Countries_API from './Components/20. Countries_API/Countries_API.jsx';
 import Image from "./Components/03. Use_Images/Images.jsx";
 import Revision from './Components/18. Revising_Concept/Revision.jsx';
+import App from './Components/07. Routing/App.jsx';
 
 const About = lazy(() => wait(1000).then(() => import('./Components/13. UseTailwindCSS/About')));
 const Contact = lazy(() => wait(1000).then(() => import('./Components/13. UseTailwindCSS/Contact')));
@@ -55,7 +56,7 @@ createRoot(document.getElementById('root')).render(
     <>
       {/* <RouterProvider router={router} /> */}
       {/* <ClassComponent /> */}
-      <Revision />
+      <App />
     </>
   </StrictMode>,
 )
