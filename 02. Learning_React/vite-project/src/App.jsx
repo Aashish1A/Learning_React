@@ -1,10 +1,12 @@
 import React from "react";
 
 const app = () => {
+  
+  return (
+    <div>
 
-  return <h1>Our main home page</h1>
+    </div>
+  )
 };
-console.log("Hi vite");
-console.log("Aashish");
 
 export default app;
