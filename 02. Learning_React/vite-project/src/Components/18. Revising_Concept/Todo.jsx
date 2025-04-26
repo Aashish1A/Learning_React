@@ -24,6 +24,13 @@ const Todo = () => {
     const moveTaskUp = (index) => {
         if(index>0){
             const updatedTask = [...tasks];
+            // if (index > 0) {
+            //     const updatedTask = [...tasks];
+            //     const temp = updatedTask[index]; // Store the current element in a temporary variable
+            //     updatedTask[index] = updatedTask[index - 1]; // Move the previous element to the current position
+            //     updatedTask[index - 1] = temp; // Assign the temporary variable to the previous position
+            //     setTasks(updatedTask);
+            // }
             [updatedTask[index], updatedTask[index-1]] = [updatedTask[index-1], updatedTask[index]];
             setTasks(updatedTask);
         }

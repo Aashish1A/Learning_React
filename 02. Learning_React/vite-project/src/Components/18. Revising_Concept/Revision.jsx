@@ -4,6 +4,9 @@ import Button from './Button'
 import ColorPicker from './ColorPicker'
 import Todo from './Todo'
 import FileDrop from './FileDrop'
+import DigitalClock from './DigitalClock'
+import Hook from './Hook'
+import StopWatch from './StopWatch'
 
 const Revision = () => {
   return (
@@ -11,8 +14,11 @@ const Revision = () => {
         {/* <List />
         <Button /> */}
         {/* <ColorPicker /> */}
-        <Todo />
+        {/* <Todo /> */}
         {/* <FileDrop onDrop={console.log} /> */}
+        {/* <DigitalClock /> */}
+        {/* <Hook /> */}
+        <StopWatch />
     </div>
   )
 }
